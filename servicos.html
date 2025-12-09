@@ -9,6 +9,7 @@
 </head>
 <body>
 
+<!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.html">PetShop Mundo Animal</a>
@@ -21,33 +22,59 @@
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
                 <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
-                <li class="nav-item"><a class="nav-link" href="servicos.html">Cadastro e agendamento</a></li>
+                <li class="nav-item"><a class="nav-link" href="cadastro.html">Cadastro e Agendamento</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
+<!-- Conteúdo -->
 <div class="container mt-4">
-    <h2 class="text-center mb-4">Serviços</h2>
+    <h2 class="text-center mb-4">Serviços Disponíveis</h2>
 
-    <div class="row">
-        <div>
-            <h3>Banho e Tosa</h3>
-            <p>Valor: R$ 60,00</p>
-            <p>Tele-busca: Sim</p>
+    <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="imagens/banho.jpg" class="card-img-top" alt="Banho e tosa em cachorro">
+                <div class="card-body">
+                    <h5 class="card-title">Banho e Tosa</h5>
+                    <p class="card-text">Serviço completo de higiene e cuidados para seu pet.</p>
+                    <p><strong>Valor:</strong> R$ 60,00</p>
+                    <p><strong>Tele-busca?</strong> Sim</p>
+                </div>
+            </div>
         </div>
-        <div>
-            <h3>Consulta Veterinária</h3>
-            <p>Valor: R$ 80,00</p>
-            <p>Tele-busca: Não</p>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="imagens/consulta.jpg" class="card-img-top" alt="Veterinário realizando consulta em pet">
+                <div class="card-body">
+                    <h5 class="card-title">Consulta Veterinária</h5>
+                    <p class="card-text">Atendimento especializado para garantir a saúde do seu animal.</p>
+                    <p><strong>Valor:</strong> R$ 80,00</p>
+                    <p><strong>Tele-busca?</strong> Não</p>
+                </div>
+            </div>
         </div>
-        <div>
-            <h3>Hospedagem para Pets</h3>
-            <p>Valor: R$ 90,00 (diária)</p>
-            <p>Tele-busca: Sim</p>
-        </div>   
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="imagens/hospedagem.jpg" class="card-img-top" alt="Hotel para pets com espaço confortável">
+                <div class="card-body">
+                    <h5 class="card-title">Hospedagem</h5>
+                    <p class="card-text">Ambiente seguro e acolhedor para seu pet.</p>
+                    <p><strong>Valor:</strong> R$ 90,00 (diária)</p>
+                    <p><strong>Tele-busca?</strong> Sim</p>
+                </div>
+            </div>
+        </div>
+
     </div>
- </div>
+</div>
 
 <footer class="text-center p-3 bg-light mt-4">
     © 2025 PetShop Mundo Animal
@@ -57,4 +84,3 @@
 <script src="js/script.js"></script>
 </body>
 </html>
-
