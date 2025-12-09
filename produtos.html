@@ -9,6 +9,7 @@
 </head>
 <body>
 
+<!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.html">PetShop Mundo Animal</a>
@@ -21,56 +22,99 @@
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
                 <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
-                <li class="nav-item"><a class="nav-link" href="servicos.html">Cadastro e agendamento</a></li>
+                <li class="nav-item"><a class="nav-link" href="cadastro.html">Cadastro e Agendamento</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
 <div class="container mt-4">
+
     <h2 class="text-center mb-4">Produtos</h2>
 
-    <div class="row">
-        <h3>Acessórios</h3>
-        <div>
-            <h4>Cama para Cachorro</h4>
-            <img src="imagens/cama.jpg" width="150">
-            <p>Confortável e lavável.</p>
-            <p>Valor: R$ 120,00</p>
+    <!-- Acessórios -->
+    <h3 class="mb-3">Acessórios</h3>
+    <div class="row g-4">
+
+        <!-- Produto -->
+        <div class="col-md-3">
+            <div class="card shadow">
+                <img src="imagens/cama.jpg" class="card-img-top" alt="Cama confortável para cachorro">
+                <div class="card-body">
+                    <h5 class="card-title">Cama para Cachorro</h5>
+                    <p class="card-text">Confortável e lavável.</p>
+                    <p><strong>R$ 120,00</strong></p>
+                </div>
+            </div>
         </div>
-        <div>
-            <h4>Brinquedo Bola</h4>
-            <img src="imagens/bola.jpg" width="150">
-            <p>Bola resistente para diversão.</p>
-            <p>Valor: R$ 20,00</p>
+
+        <div class="col-md-3">
+            <div class="card shadow">
+                <img src="imagens/bola.jpg" class="card-img-top" alt="Brinquedo bola para cachorro">
+                <div class="card-body">
+                    <h5 class="card-title">Brinquedo Bola</h5>
+                    <p class="card-text">Bola resistente para diversão diária.</p>
+                    <p><strong>R$ 20,00</strong></p>
+                </div>
+            </div>
         </div>
-        <h3>Rações não perecíveis</h3>
-        <div>
-            <h4>Ração Premium 1kg</h4>
-            <img src="imagens/racao1.jpg" width="150">
-            <p>Ração premium para cães adultos.</p>
-            <p>Valor: R$ 35,00</p>
-        </div>
-        <div>
-            <h4>Ração Filhotes 1kg</h4>
-            <img src="imagens/racao2.jpg" width="150">
-            <p>Ração nutritiva para filhotes.</p>
-            <p>Valor: R$ 38,00</p>
-        </div>
-        <h3>Higiene e limpeza</h3>
-        <div>
-            <h4>Tapete Higiênico</h4>
-            <img src="imagens/tapete.jpg" width="150">
-            <p>Pacote com 30 unidades.</p>
-            <p>Valor: R$ 50,00</p>
-        </div>
-        <div>
-            <h4>Shampoo Antipulgas</h4>
-            <img src="imagens/shampoo.jpg" width="150">
-            <p>Shampoo especial para cuidados do pet.</p>
-            <p>Valor: R$ 25,00</p>
-        </div>        
     </div>
+
+    <!-- Rações -->
+    <h3 class="mt-5 mb-3">Rações não perecíveis</h3>
+    <div class="row g-4">
+
+        <div class="col-md-3">
+            <div class="card shadow">
+                <img src="imagens/racao1.jpg" class="card-img-top" alt="Saco de ração premium">
+                <div class="card-body">
+                    <h5 class="card-title">Ração Premium 1kg</h5>
+                    <p class="card-text">Para cães adultos.</p>
+                    <p><strong>R$ 35,00</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card shadow">
+                <img src="imagens/racao2.jpg" class="card-img-top" alt="Ração especial para filhotes">
+                <div class="card-body">
+                    <h5 class="card-title">Ração Filhotes 1kg</h5>
+                    <p class="card-text">Nutritiva e completa.</p>
+                    <p><strong>R$ 38,00</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Higiene -->
+    <h3 class="mt-5 mb-3">Higiene e Limpeza</h3>
+    <div class="row g-4">
+
+        <div class="col-md-3">
+            <div class="card shadow">
+                <img src="imagens/tapete.jpg" class="card-img-top" alt="Pacote de tapete higiênico">
+                <div class="card-body">
+                    <h5 class="card-title">Tapete Higiênico</h5>
+                    <p class="card-text">Pacote com 30 unidades.</p>
+                    <p><strong>R$ 50,00</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card shadow">
+                <img src="imagens/shampoo.jpg" class="card-img-top" alt="Shampoo antipulgas para pets">
+                <div class="card-body">
+                    <h5 class="card-title">Shampoo Antipulgas</h5>
+                    <p class="card-text">Cuidados especiais para o pet.</p>
+                    <p><strong>R$ 25,00</strong></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
 </div>
 
 <footer class="text-center p-3 bg-light mt-4">
