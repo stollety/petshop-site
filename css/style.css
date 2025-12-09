@@ -1,0 +1,32 @@
+body {
+    background-color: #fdfdfd;
+}
+
+header h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer {
+    background: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+form {
+    max-width: 900px;
+    margin: auto;
+}
+
+label {
+    font-weight: 600;
+}
